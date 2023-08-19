@@ -1,0 +1,25 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+tab_width = 4
+trim_trailing_whitespace = true
+
+[LICENSE.txt]
+insert_final_newline = false
+
+[package.json*]
+indent_size = 2
+
+[build/**]
+charset = unset
+end_of_line = unset
+indent_size = unset
+indent_style = unset
+insert_final_newline = unset
+tab_width = unset
+trim_trailing_whitespace = unset
