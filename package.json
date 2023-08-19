@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "author": "retueze",
   "license": "MIT",
-  "description": "",
-  "keywords": [],
+  "description": "Wraps generators into I/O script functions",
+  "keywords": ["generator", "function", "script", "scripting", "async", "io", "promise"],
   "repository": {
     "type": "git",
     "url": "https://github.com/retueze/generator-scripts"
