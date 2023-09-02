@@ -4,7 +4,7 @@ import dts from 'rollup-plugin-dts'
 import * as path from 'node:path'
 import { copyFileSync, existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
 
-const EXTERNAL = []
+const EXTERNAL = ['async-option', 'async-option/async']
 const NAMESPACES = []
 
 function createEntryFileNames(extension) {
